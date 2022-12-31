@@ -40,7 +40,9 @@ public class Persona implements Serializable {
     private int id;
     private String nombre;
     private String apellido;
-    private String título;
+    
+    @Column(name= "título") 
+    private String titulo;
     private String mail;
     
    @Column(name="url_foto") 
