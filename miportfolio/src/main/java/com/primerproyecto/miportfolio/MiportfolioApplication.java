@@ -2,6 +2,8 @@ package com.primerproyecto.miportfolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
 //import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 //@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
@@ -10,6 +12,7 @@ public class MiportfolioApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MiportfolioApplication.class, args);
+                
 	}
 
 }
